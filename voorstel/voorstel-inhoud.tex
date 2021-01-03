@@ -3,24 +3,39 @@
 \section{Introductie} % The \section*{} command stops section numbering
 \label{sec:introductie}
 
-Hier introduceer je werk. Je hoeft hier nog niet te technisch te gaan.
+Informatie technologie (IT) en operationele technologie (OT) zijn niet meer weg te denken uit de hedendaagse wereld. IT verwijst naar het hele spectrum van technologieën voor informatieverwerking, met inbegrip van software, hardware, communicatietechnologieën en aanverwante diensten  \autocite{SecureiconTeam2019}. OT verwijst naar de hardware en software dat wordt gebruikt voor automatiseringsystemen binnen infrastructuur, denk maar aan de elektriciteitsindustrie, gasindustrie en vele meer \autocite{Murray}. Volgens \textcite{Hayes2020} moeten deze 2 technologieën samenwerken, maar treden er verschillende problemen op bij deze convergentie zoals de security. De IOT, big data en vele andere nieuwe IT-concepten zorgen ervoor dat convergentie van de technologieën nodig is.
 
-Je beschrijft zeker:
+De integratie van IT in OT netwerken staat nog niet helemaal op punt. Door de verschillende protocollen, hardware, software en security is het moeilijk om deze samen te combineren. In verscheidene artikels zijn al problemen aangekaart in verband met de security, maar wordt er weinig tot niet besproken wat het zal doen met de hardware en andere netwerkeigenschappen. Deze andere eigenschappen zijn minstens zo belangrijk en worden onderzocht in deze bachelorproef.
 
+In deze thesis worden volgende onderzoeksvragen uitgewerkt:
 \begin{itemize}
-  \item de probleemstelling en context
-  \item de motivatie en relevantie voor het onderzoek
-  \item de doelstelling en onderzoeksvraag/-vragen
-\end{itemize}
+    \item Hoe ziet een IT netwerk er uit: (protocollen, hardware, standaarden en security)?
+    \item Hoe ziet een OT netwerk er uit: (protocollen, hardware, standaarden en security)?
+    \item Zijn er verschillen tussen deze 2 netwerken?
+    \item Wat is de meerwaarde van IT-OT convergentie?
+    \item Hoever staan we met de IT-OT convergentie en wat zijn de problemen hierbij?  
+    \item Is er een connectie met de convergentie en nieuwe IT trends zoals de IOT?
+    
+\end{itemize}  
 
 %---------- Stand van zaken ---------------------------------------------------
 
 \section{State-of-the-art}
 \label{sec:state-of-the-art}
 
-Hier beschrijf je de \emph{state-of-the-art} rondom je gekozen onderzoeksdomein. Dit kan bijvoorbeeld een literatuurstudie zijn. Je mag de titel van deze sectie ook aanpassen (literatuurstudie, stand van zaken, enz.). Zijn er al gelijkaardige onderzoeken gevoerd? Wat concluderen ze? Wat is het verschil met jouw onderzoek? Wat is de relevantie met jouw onderzoek?
+Tot op heden zijn er al verschillende onderzoeken geweest om tot bevindingen te komen tussen IT en OT. De meeste onderzoeken zijn al van 5 jaar geleden of meer en dus niet meer volkomen relevant. Andere onderzoeken zijn vooral gefocust op 1 specifiek verschil tussen beide zoals security. In deze thesis zullen er meerdere verschillen worden onderzocht en zal er onderzoek gedaan worden naar de integratie met de nieuwste IT-concepten.
 
-Verwijs bij elke introductie van een term of bewering over het domein naar de vakliteratuur, bijvoorbeeld~\autocite{Doll1954}! Denk zeker goed na welke werken je refereert en waarom.
+
+Secureicon heeft een onderzoek gedaan naar de convergentie van IT en OT (\cite{SecureiconTeam2019}). Ze stelden vast dat tegen 2020 50\% van alle OT providers zullen samenwerken met IT om zo nieuwe services binnen het bedrijf te plaatsen met netwerk connectiviteit. Ze concluderen dat de convergentie veel nieuwe mogelijkheden met zich meebrengt waardoor de processen efficiënter worden en de kosten dalen. Naast de voordelen brengt de convergentie ook veel nadelen met zich mee. Zo wordt het OT schadelijk voor alle soorten aanvallen dat de IT al jaren teistert wat kan leiden tot datalekken, spionage en kaping. De cybersecurity is één van de belangrijkste zaken in een geconvergeerd netwerk. Ze hebben geen onderzoek gedaan naar de protocollen, hardware en standaarden die worden gebruikt. Dit wordt onderzocht in de literatuurstudie van deze thesis. 
+
+
+\textcite{Pennerad2013} heeft een gelijkaardig onderzoek gedaan naar de convergentie van IT en OT binnen de pharmaceutische en biotechnologische industrie. Zijn conclusie was dat door de convergentie er heel wat nieuwe uitdagingen zullen komen voor de netwerken. Deze uitdagingen komen aan bod door de introductie van nieuwe IT-concepten. Dit onderzoek is al van enkele jaren geleden, de groei van de nieuwe IT-concepten zijn de laatste jaren in een zo stijgende lijn gegaan dat dit onderzoek niet meer volkomen relevant is. Aan de hand van een vragenlijst zal er worden onderzocht hoever we hiermee staan in de Belgische bedrijfswereld. 
+
+
+
+
+
+
 
 % Voor literatuurverwijzingen zijn er twee belangrijke commando's:
 % \autocite{KEY} => (Auteur, jaartal) Gebruik dit als de naam van de auteur
@@ -29,23 +44,33 @@ Verwijs bij elke introductie van een term of bewering over het domein naar de va
 %   functie heeft in de zin (bv. ``Uit onderzoek door Doll & Hill (1954) bleek
 %   ...'')
 
-Je mag gerust gebruik maken van subsecties in dit onderdeel.
+
 
 %---------- Methodologie ------------------------------------------------------
 \section{Methodologie}
 \label{sec:methodologie}
 
-Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
+In de eerste fase van het onderzoek zal er een vergelijkende studie worden gevoerd naar IT en OT. De verschillen gaan zich opdelen in verschillende delen: protocollen, security, hardware. 
+
+
+In een tweede fase zal onderzocht worden hoe IT en OT samenwerken met de groei van nieuwe IT concepten en wat de meerwaarde hiervan is. Wat gebeurt er met de verschillende delen uit fase 1 als deze niet meer apart worden gerekend. 
+
+
+Na de uitvoering van de literatuurstudie gaan we voor de proof of concept gebruik maken van een vragenlijst. Er zal langs gegaan worden bij verschillende Vlaamse bedrijven die in bezit zijn van een IT en OT netwerk. Aan de hand van de vragenlijst komen we dan te weten hoever ze staan met de IT en OT convergentie en wat ze hier nu precies van vinden. Ook zal er een use case worden opgesteld per bedrijf om te kijken wie precies wat mag doen binnen deze IT-OT netwerken. 
+
+
+
 
 %---------- Verwachte resultaten ----------------------------------------------
 \section{Verwachte resultaten}
 \label{sec:verwachte_resultaten}
 
-Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de stukken van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet hoe je je data gaat moeten structureren.
+We verwachten uit de resultaten van de vragenlijsten dat de IT-OT niet in alle bedrijven geconvergeerd is. Bedrijven die mee gaan met alle nieuwe technieken zullen gebruik maken van een geconvergeerd netwerk, maar er zullen ook bedrijven zijn die nog draaien op oude systemen waarbij de nood voor convergentie niet nodig is \autocite{Berge2018}. Er zal niet veel verschil zijn qua hardware en protocollen tussen hoe ze geconvergeerd zijn of afgescheiden van elkaar. De security van de geconvergeerde netwerken vraagt om een grotere security verantwoordelijkheid met nieuwe technieken. Nieuwe technieken voor de security van de netwerken moeten worden opgesteld om hackers buiten te houden. We verwachten dat bedrijven die een geconvergeerd netwerk hebben mee zijn met de nieuwste IT-concepten. 
+
 
 %---------- Verwachte conclusies ----------------------------------------------
 \section{Verwachte conclusies}
 \label{sec:verwachte_conclusies}
 
-Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.
+Er wordt verwacht dat IT en OT samenwerken in bedrijven waar de nieuwe IT-concepten volop worden gebruikt. Bedrijven die niet meedoen aan veel verandering kunnen hun IT en OT netwerk gescheiden houden. Om IT en OT samen te laten werken moeten heel wat nieuwe stappen worden geïmplementeerd voor de security.
 
