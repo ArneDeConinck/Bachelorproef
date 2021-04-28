@@ -1,0 +1,24 @@
+Naam bedrijf: 
+
+Is jullie bedrijf in bezit van een IT en OT omgeving?
+
+Welke componenten gebruiken jullie in jullie IT omgeving?
+Lijst zetten
+
+Welke componenten gebruiken jullie in jullie OT omgeving?
+
+Welke protocollen gebruiken jullie in de IT omgeving? 
+Routering,netwerkdiscovery,..
+Welke protocollen gebruiken jullie in de OT omgeving? 
+
+Wordt jullie IT netwerk beveiligd? Zoja, met welke externe software?
+
+Wordt jullie OT netwerk beveiligd? Zoja, met welke externe software?
+
+Is er een verschil in frequentie van updates in jullie IT en OT omgeving? 
+
+Is jullie IT en OT netwerk geconnecteerd? Zoja, is dit via 1 switch of een ander principe?
+
+Als jullie dit hebben waarom precies? en wat waren de challenges?
+
+Wordt de informatie van jullie OT omgeving gebruikt in de IT omgeving bv voor ERP systemen,..
