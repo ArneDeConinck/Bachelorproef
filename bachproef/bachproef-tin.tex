@@ -8,14 +8,14 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \setcounter{secnumdepth}{3}
-
+\usepackage{pdfpages}
 \usepackage{hogent-thesis-titlepage} % Titelpagina conform aan HOGENT huisstijl
 
 %%---------- Documenteigenschappen ---------------------------------------------
 % TODO: Vul dit aan met je eigen info:
 
 % De titel van het rapport/bachelorproef
-\title{Wat zijn de verschillen tussen een IT en OT netwerk en waarom wordt er gekozen voor een convergentie van beide: onderzoek en proof of concept}
+\title{Wat zijn de verschillen tussen een IT en OT-netwerk en waarom wordt er gekozen voor een convergentie van beide: onderzoek en proof of concept}
 
 % Je eigen naam
 \author{Arne De Coninck}
@@ -30,7 +30,7 @@
 % Indien je bachelorproef in opdracht van/in samenwerking met een bedrijf of
 % externe organisatie geschreven is, geef je hier de naam. Zoniet laat je dit
 % zoals het is.
-\instelling{---}
+\instelling{Secure-IT}
 
 % Academiejaar
 \academiejaar{2020-2021}
@@ -79,11 +79,13 @@
 % de figuur of tabel zelf.
 
 \listoffigures
-\listoftables
+%\listoftables
 
 % Als je een lijst van afkortingen of termen wil toevoegen, dan hoort die
 % hier thuis. Gebruik bijvoorbeeld de ``glossaries'' package.
 % https://www.overleaf.com/learn/latex/Glossaries
+
+
 
 %---------- Kern ---------------------------------------------------------------
 
@@ -96,7 +98,7 @@
 \input{inleiding}
 \input{standvanzaken}
 \input{methodologie}
-
+\input{resultaten}
 % Voeg hier je eigen hoofdstukken toe die de ``corpus'' van je bachelorproef
 % vormen. De structuur en titels hangen af van je eigen onderzoek. Je kan bv.
 % elke fase in je onderzoek in een apart hoofdstuk bespreken.
@@ -113,6 +115,14 @@
 
 \appendix
 \renewcommand{\chaptername}{Appendix}
+\chapter{Enquête bedrijf 1}
+\includepdf[pages=-]{Enquête 1}
+
+\chapter{Enquête bedrijf 2}
+\includepdf[pages=-]{Enquête 2}
+
+\chapter{Enquête bedrijf 3}
+\includepdf[pages=-]{Enquête 3}
 
 %%---------- Onderzoeksvoorstel -----------------------------------------------
 

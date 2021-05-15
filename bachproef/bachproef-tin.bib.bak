@@ -20,7 +20,7 @@
 
 @Online{Gartner,
   author  = {Gartner},
-  title   = {Operational Technology (OT)},
+  title   = {Operational Technology (OT).},
   url     = {https://www.gartner.com/en/information-technology/glossary/operational-technology-ot},
   urldate = {2021-02-22},
 }
@@ -48,17 +48,10 @@
   urldate = {2021-03-01},
 }
 
-@Online{ATAutomation,
-  author  = {AT-Automation},
-  title   = {RTU (Remote Terminal Unit): Wat is het?},
-  url     = {https://www.at-automation.nl/knowledge-base/rtu-remote-terminal-unit-wat-is-het/},
-  urldate = {2021-03-01},
-}
-
 @Online{Exor2019,
   author  = {Exor},
   date    = {2019-02-07},
-  title   = {WHAT IS A HUMAN-MACHINE INTERFACE OR HMI},
+  title   = {What is a human interface or hmi.},
   url     = {https://www.exorint.com/en/blog/2019/02/07/what-is-a-human-machine-interface-and-do-you-make-or-buy-it},
   urldate = {2021-03-01},
 }
@@ -74,14 +67,14 @@
 @Online{Rinaldi,
   author  = {John Rinaldi},
   date    = {2020-08-20},
-  title   = {What is a Historian},
+  title   = {What is a Historian.},
   url     = {https://www.rtautomation.com/rtas-blog/what-is-a-historian/},
   urldate = {2021-03-08},
 }
 
 @Online{Solutions,
   author  = {GE Digital, solutions},
-  title   = {Historian Overview},
+  title   = {Historian Overview.},
   url     = {https://www.ge.com/digital/documentation/historian/version80/c_hgs_historian_overview.html},
   urldate = {2021-03-08},
 }
@@ -138,177 +131,9 @@
 @Online{MDN2021,
   author  = {MDN},
   date    = {2021-01-27},
-  editor  = {Havardox and Ohaver and Hussamkhatib and Gbui and Mfuji09 and fiver22 and chrisdavidmills and Ashishcodes and Surigangula and Xclusiveaurav and Iigmir and Ggarrickk and StarkBjorn and Thankvk and Hierror and Jeremie and Andrew_Pfeiffer and Sboroda and Klez},
   title   = {What is a web server?},
   url     = {https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server},
   urldate = {2021-03-29},
-}
-
-@Online{Gatefy2021,
-  author  = {Gatefy},
-  date    = {2021-03-19},
-  title   = {What is mail server?},
-  url     = {https://gatefy.com/blog/what-is-mail-server/},
-  urldate = {2021-03-29},
-}
-
-@Online{Kerravala2018,
-  author  = {Kerravala, Zeus},
-  date    = {2018-08-21},
-  title   = {DHCP defined and how it works},
-  url     = {https://www.networkworld.com/article/3299438/dhcp-defined-and-how-it-works.html},
-  urldate = {2021-03-29},
-}
-
-@Online{Petters2021,
-  author  = {Jeff Petters},
-  date    = {2021-01-29},
-  title   = {What is DNS, How it Works + vulnerabilities},
-  url     = {https://www.varonis.com/blog/what-is-dns/},
-  urldate = {2021-03-31},
-}
-
-@Online{Johnson2021,
-  author  = {Dave Johnson},
-  date    = {2021-02-17},
-  title   = {What is a DNS server? How Domain Name System servers connect you to the internet},
-  url     = {https://www.businessinsider.com/what-is-a-dns-server?},
-  urldate = {2021-03-31},
-}
-
-@Online{Thomas2020,
-  author  = {Carlsson Thomas},
-  date    = {2020-03-29},
-  title   = {Industrial network market shares 2020 according to HMS Networks},
-  url     = {https://www.hms-networks.com/news-and-insights/news-from-hms/2020/05/29/industrial-network-market-shares-2020-according-to-hms-networks},
-  urldate = {2021-04-05},
-}
-
-@Online{Nelly2021,
-  author  = {Ayllon Nelly},
-  date    = {2021-02-10},
-  title   = {What is profinet?-profinet explained},
-  url     = {https://us.profinet.com/profinet-explained/},
-  urldate = {2021-04-05},
-}
-
-@Online{Realpars2019a,
-  author  = {Realpars},
-  date    = {2019-02-25},
-  title   = {What is ethernet/ip?},
-  url     = {https://realpars.com/ethernet-ip/},
-  urldate = {2021-04-05},
-}
-
-@Online{Tannehill2020,
-  author  = {Lapp Tannehill},
-  date    = {2020-06-03},
-  title   = {Commercial ethernet vs industrial ethernet.},
-  url     = {https://www.lapptannehill.com/news/post/commercial-ethernet-vs-industrial-ethernet},
-  urldate = {2021-04-10},
-}
-
-@Online{Chemigraphic2019,
-  author  = {Chemigraphic},
-  date    = {2019-05-16},
-  title   = {Is winter coming for Fieldbus?},
-  url     = {https://www.chemigraphic.co.uk/is-winter-coming-for-fieldbus/},
-  urldate = {2021-04-10},
-}
-
-@Online{Sharon2019,
-  author  = {Fisher Sharon},
-  date    = {2019-07-30},
-  title   = {What is TCP/IP and How Does it Work?},
-  url     = {https://www.avast.com/c-what-is-tcp-ip},
-  urldate = {2021-04-11},
-}
-
-@Online{Subham2021,
-  author  = {Datta Subham},
-  date    = {2021-01-15},
-  title   = {Popular network protocols.},
-  url     = {https://www.baeldung.com/cs/popular-network-protocols},
-  urldate = {2021-04-11},
-}
-
-@Online{Kieron2020,
-  author  = {Allen Kieron},
-  date    = {2020-05-17},
-  title   = {IT Security:What is it?},
-  url     = {https://www.techradar.com/news/it-security-what-is-it},
-  urldate = {2021-04-12},
-}
-
-@Online{Cisco,
-  author  = {Cisco},
-  title   = {What Is IT Security},
-  url     = {https://www.cisco.com/c/en/us/products/security/what-is-it-security.html},
-  urldate = {2021-04-12},
-}
-
-@Online{Infradata2019,
-  author  = {Infradata},
-  date    = {2019-10-22},
-  title   = {What is OT Security},
-  url     = {https://www.infradata.com/resources/what-is-ot-security/},
-  urldate = {2021-04-19},
-}
-
-@Online{Security2020,
-  author  = {Hitachi Systems Security},
-  date    = {2020-10-27},
-  title   = {Why is Operational Technology (OT) Security Important?},
-  url     = {https://hitachi-systems-security.com/why-is-operational-technology-ot-security-important/},
-  urldate = {2021-04-19},
-}
-
-@Online{Debbie2019,
-  author  = {Walkowski Debbie},
-  date    = {2019-07-09},
-  title   = {What is the CIA Triad?},
-  url     = {https://www.f5.com/labs/articles/education/what-is-the-cia-triad},
-  urldate = {2021-04-20},
-}
-
-@Online{Max2020,
-  author  = {Gilg Max},
-  date    = {2020-12-06},
-  title   = {Key OT Cybersecurity Challenges: Availability, Integrity and confidentiality.},
-  url     = {https://www.tripwire.com/state-of-security/security-data-protection/key-ot-cybersecurity-challenges-availability-integrity-confidentiality/},
-  urldate = {2021-04-20},
-}
-
-@Online{GeeksforGeeks2020,
-  author  = {GeeksforGeeks},
-  date    = {2020-06-15},
-  title   = {Difference between Static and Dynamic Web Pages},
-  url     = {https://www.geeksforgeeks.org/difference-between-static-and-dynamic-web-pages/},
-  urldate = {2021-04-24},
-}
-
-@Online{GeeksforGeeks2020a,
-  author  = {GeeksforGeeks},
-  date    = {2020-09-30},
-  title   = {TCP/IP Model},
-  url     = {https://www.geeksforgeeks.org/tcp-ip-model/},
-  urldate = {2021-04-24},
-}
-
-@Online{Remy2020,
-  author  = {Marcotorchino Remy},
-  date    = {2020-08-04},
-  title   = {What is IT/OT Convergence?},
-  url     = {https://www.sierrawireless.com/iot-blog/it-ot-convergence/},
-  urldate = {2021-04-26},
-}
-
-@Online{Tiempo2020,
-  author  = {Development Tiempo},
-  date    = {2020-04-07},
-  title   = {IT OT Convergence - Benefits and Challenges in Manufacturing},
-  url     = {https://www.tiempodev.com/blog/it-ot-convergence-benefits-and-challenges-in-manufacturing/},
-  urldate = {2021-04-26},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

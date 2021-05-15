@@ -2,23 +2,51 @@
 %% Methodologie
 %%=============================================================================
 
-\chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}
+\chapter{\IfLanguageName{dutch}{Methodologie}{Methodologie}}
 \label{ch:methodologie}
+In hoofdstuk~\ref{ch:stand-van-zaken} werd er via een literatuurstudie aangehaald wat de verschillen zijn tussen informationele en operationele technologie. Daarnaast werd ook de convergentie van beide technologiën uitvoerig besproken. In dit hoofdstuk zal besproken worden waarom er is gekozen voor een enquête als methodologie. De bedoeling van de enquête is de verschillen die besproken zijn in de literatuurstudie te toetsen aan de werkelijkheid. Samen met de literatuurstudie kan dan een volwaardig antwoord gegeven worden op de onderzoeksvragen.
 
-%% TODO: Hoe ben je te werk gegaan? Verdeel je onderzoek in grote fasen, en
-%% licht in elke fase toe welke stappen je gevolgd hebt. Verantwoord waarom je
-%% op deze manier te werk gegaan bent. Je moet kunnen aantonen dat je de best
-%% mogelijke manier toegepast hebt om een antwoord te vinden op de
-%% onderzoeksvraag.
+\section{\IfLanguageName{dutch}{Enquête}{Enquête}}
+\label{sec:Enquête}
+Er is gekozen om een enquête te doen, omdat dit een goede manier is om bedrijven te ondervragen over hun informationeel en operationeel netwerk. Na het invullen van de enquêtes konden er nog extra vragen of verduidelijkingen worden gevraagd aan de desbetreffende bedrijven. De enquête bevat tien vragen die nagaan hoe het informationele en operationele netwerk is opgebouwd en waar ze in verschillen. Daarnaast werden de bedrijven bevraagt over de connectie tussen deze twee netwerken binnen hun bedrijf. De enquête is enkel verstuurd naar bedrijven die in het bezit zijn van beide netwerken, zodat dit een representatief resultaat weergeeft. 
 
-In dit hoofdstuk zal uitvoerig besproken worden waarom er is gekozen voor een enquête als proof of concept. Daarnaast worden de vragen van de enquête uitgelegd alsook de antwoorden van de meewerkende bedrijven.
+De eerste vraag is: Welke componenten worden in de IT-omgeving gebruikt? De bedrijven kregen hierbij een opsomming van de belangrijkste componenten gebleken uit de literatuurstudie. 
+\begin{itemize}
+    \item Fileserver
+    \item Applicatieserver
+    \item Webserver
+    \item Mailserver
+    \item DHCP-server
+    \item DNS-server
+\end{itemize}
 
-Enquête : waarom gekozen voor enquete
+De tweede vraag is: Welke componenten worden in de OT-omgeving gebruikt? De bedrijven kregen hierbij een opsomming van de belangrijkste componenten gebleken uit de literatuurstudie.
+\begin{itemize}
+    \item PLC
+    \item RTU
+    \item HMI
+    \item Historian
+    \item SCADA
+    \item DCS
+\end{itemize}
+Door vraag één en twee te stellen, wordt er een beeld gecreëerd van welke componenten ze gebruiken binnen de netwerken. We kunnen hierdoor nagaan wat de verschillen zijn met de componenten van de literatuurstudie.
 
-Vragen uitleggen
 
-Welke bedrijven hebben deelgenomen
+De derde vraag is: Welke communicatieprotocollen worden er gebruikt binnen de IT-omgeving? Uit de theorie is gebleken dat TCP/IP het belangrijkste protocol is en dat er ook andere protocollen worden gebruikt zoals FTP en SSH. Door deze vraag op te nemen in de enquête wordt er nagegaan wat de meest gebruikte informationele communicatieprotocollen zijn bij hedendaagse bedrijven. 
+ 
+De vierde vraag is: Welke communicatieprotocollen worden er gebruikt binnen de OT-omgeving? Uit de theorie is gebleken dat ethernet/IP het meest gebruikte communicatieprotocol is momenteel. Echter zijn er ook nog veel andere en vooral oude protocollen die worden gebruikt. Door deze vraag op te nemen in de enquête wordt er nagegaan wat de meest gebruikte operationele communicatieprotocollen zijn bij hedendaagse bedrijven.
 
-Bevindingen?
+De vijfde vraag is: Wordt het IT-netwerk beveiligd? Zoja, hoe pakken jullie dit aan? De bedoeling van deze vraag is nagaan of het informationele netwerk al dan niet beveiligd is. Deze beveiliging kan op verschillende manieren geimplementeerd zijn. 
+
+De zesde vraag is: Wordt het OT-netwerk beveiligd? Zoja, hoe pakken jullie dit aan? Deze vraag wordt gesteld in samenstelling met vraag vijf om na te gaan waar de verschillen zitten in beveiliging. Worden beide netwerken op dezelfde manier beveiligd of gebeurt dit anders? 
+
+De zevende vraag is: Is er een verschil in frequentie van updates in de IT en OT-omgeving? Zoja, waarom? Uit de theorie is gebleken dat updates sneller worden doorgevoerd in de informationele omgeving dan in de operationele. Door deze vraag te stellen komen we te weten of dit echt het geval is.
+
+De achtste vraag is: Is het IT en OT-netwerk aan elkaar gekoppeld? Zoja, waren er moeilijkheden om dit voor elkaar te krijgen? Deze vraag geeft duiding bij het connecteren van de netwerken. De literatuurstudie geeft aan dat het connecteren voor enkele problemen kan zorgen. 
+
+De negende vraag is: Wordt de informatie van de OT-omgeving gebruikt in de IT-omgeving bijvoorbeeld voor ERP-systemen? Zoja, verklaar. Uit de literatuurstudie blijkt dat data van de operationele omgeving wordt doorgestuurd naar de informationele omgeving om de systemen te optimaliseren en nieuwe inzichten te genereren. Door deze vraag te stellen wordt er nagegaan of dit gebeurt bij de deelnemende bedrijven.
+
+De tiende en laatste vraag is: Wat waren de problemen bij het connecteren van beide netwerken? Uit de literatuurstudie is gebleken dat het connecteren van beide netwerken voor enkele problemen kan zorgen. Met deze vraag willen we nagaan of hedendaagse bedrijven hier moeilijkheden mee hadden. 
+
 
 

@@ -1,0 +1,106 @@
+\chapter{\IfLanguageName{dutch}{Resultaten}{Resultaten}}
+\label{ch:Resultaten}
+Tijdens dit onderzoek is er informatie verzameld over drie bedrijven. Deze drie bedrijven waren bereid mee te werken aan het onderzoek. Voor het onderzoek zijn echter meerdere bedrijven gecontacteerd, maar deze wouden niet deelnemen door middel van de beveiligingsvragen die gesteld werden. 
+
+\section{\IfLanguageName{dutch}{Bedrijf 1}{Bedrijf 1}}
+\label{sec:Bedrijf 1}
+Het eerste bedrijf dat deelnam aan de enquête heeft op de eerste twee vragen beantwoord dat ze alle componenten die gegeven zijn gebruiken binnen hun eigen omgeving. Dit wilt zeggen dat ze voor IT gebruik maken van: 
+\begin{itemize}
+    \item Fileserver
+    \item Applicatieserver
+    \item Webserver
+    \item Mailserver
+    \item DHCP-server
+    \item DNS-server
+\end{itemize}
+en binnen de OT-omgeving gebruik maken van: 
+\begin{itemize}
+    \item PLC
+    \item RTU
+    \item HMI
+    \item Historian
+    \item SCADA
+    \item DCS
+\end{itemize}
+
+Binnen de IT-omgeving gebruiken ze veel verschillende communicatieprotocollen, ze hebben aangegeven dat TCP/IP het meest gebruikte is, maar dat er ook tal van andere worden gebruikt zoals HTTPS, SMB, FTP, SNMP en DHCP. De apparaten in de OT-omgeving maken vooral gebruik van het profinet protocol. Naast profinet gebruiken ze ook andere protocollen zoals FTP en RDP. 
+
+Het IT-netwerk wordt goed beveiligd. Ze gebruiken verschillende technologiën om de beveiliging te optimaliseren. Ze gebruiken onder andere firewalls, virsusscanners, spamfilters, intrusie detectie systemen, certificaat management en vele andere toepassingen. Onder beveiliging verstaat bedrijf één ook back ups, zodat data niet verloren geraakt. Ook laten ze geregeld audits doen op hun systemen en zorgen ze ervoor dat de disaster-recovery-procedures up to date zijn. Het OT-netwerk heeft geen extra beveiliging. Updates die worden gedaan in beide omgevingen worden apart bekeken. Ze worden niet automatisch uitgevoerd. 
+
+Het IT en OT-netwerk zijn gekoppeld aan elkaar bij bedrijf één door middel van een firewall. Ze zijn in bezit van verschillende productienetwerken die strikt gescheiden zijn van de administratieve netwerken. Gebruikers mogen nooit naar de productienetwerken dus daar is geen connectie, behalve OT-ingenieurs die dat nodig hebben voor hun functie. De productie data wordt wel doorgestuurd naar één van de datacenter segmenten, de toegang van deze data wordt geregeld door een next generation firewall. 
+
+Bij het connecteren van beide netwerken zijn ze één probleem tegen gekomen. Op externe plaatsen wouden ze twee netwerken plaatsen, namelijk een productie en administrator netwerk. Dit is een hele dure kwestie aangezien een dubbel netwerk kostelijker is.
+
+\section{\IfLanguageName{dutch}{Bedrijf 2}{Bedrijf 2}}
+\label{sec:Bedrijf 2}
+Het tweede bedrijf dat deelnam aan de enquête maakt gebruik van alle componenten die gegeven zijn binnen IT en maar enkele binnen de OT-omgeving. Binnen de IT-omgeving maken ze gebruik van:
+\begin{itemize}
+    \item Fileserver
+    \item Applicatieserver
+    \item Webserver
+    \item Mailserver
+    \item DHCP-server
+    \item DNS-server
+\end{itemize}
+en binnen de OT-omgeving gebruik maken van: 
+\begin{itemize}
+    \item PLC
+    \item RTU
+    \item Historian
+\end{itemize}
+
+Binnen de IT-omgeving wordt het TCP/IP-protocol het meeste gebruikt binnen hun omgeving. desalniettemin maken ze ook gebruik van andere protocollen zoals ICMP, ARP, UDP, HTTP, DHCP en vele andere. Binnen de OT-omgeving gebruiken ze ook verschillende protocollen. Enkele die gebruikt worden zijn ethernet, profibus, profinet, ethercat, modbus tcp, powerlink, bluetooth, wlan en cc-link.
+
+De beveiliging van het IT-netwerk wordt voorlopig geregeld aan de hand van een firewall. Daarnaast is het netwerk onderverdeeld in segmenten. Het OT-netwerk wordt helemaal niet beveiligd momenteel en ook niet gesegmenteerd. De updates binnen de IT-omgeving worden automatisch uitgevoerd. De updates binnen de OT-omgeving worden niet automatisch uitgevoerd en worden geregeld door het OT-departement binnen de firma. 
+
+Er is geen connectie tussen het IT en OT-netwerk. Het zijn 2 totaal verschillende netwerken volgens hen. Hierdoor wordt de informatie ook niet gedeeld en hebben ze nog geen problemen gehad om het te connecteren.
+
+\section{\IfLanguageName{dutch}{Bedrijf 3}{Bedrijf 3}}
+\label{sec:Bedrijf 3}
+Het derde bedrijf dat deelnam aan de enquête maakt gebruik van alle componenten die werden gegeven binnen de IT-omgeving. Dit zorgt ervoor dat volgende componenten worden gebruikt binnen de omgeving:
+\begin{itemize}
+    \item Fileserver
+    \item Applicatieserver
+    \item Webserver
+    \item Mailserver
+    \item DHCP-server
+    \item DNS-server
+\end{itemize}
+Binnen de OT-omgeving worden er echter maar enkele van de gegeven componenten gebruikt. Deze zijn:
+\begin{itemize}
+    \item PLC
+    \item RTU
+    \item SCADA
+\end{itemize}
+
+Binnen de IT-omgeving maakt het bedrijf vooral gebruik van het TCP/IP-protocol. Naast die protocol gebruiken ze ook FTP, HTTP, AS2 en andere protocollen. Binnen de OT-omgeving worden TCP/IP gebaseerde protocollen het meest gebruikt. Daarnaast gebruiken ze de protocollen van siemens en het b\&r protocol.
+
+Het IT-netwerk wordt goed beveiligd met verschillende technologiën. Zo wordt er volgens hun F-secure PSB, radar en RDR gebruikt. Cisco ASA + firepower en Fortimail. Echter is het netwerk niet gesegmenteerd. Voor de beveiliging van het OT-netwerk worden ook de technologiën van F-secure gebruikt en is er hier ook geen segmentatie. De updates in beide omgevingen hebben geen verschil volgens hun. 
+
+Het IT en OT-netwerk zijn geconnecteerd met elkaar. Tussen de netwerken is er geen segmentatie, dit is iets wat ze willen implementeren. De informatie van de OT-omgeving passeert langs verschillende servers in de IT-omgeving, echter wordt deze informatie niet nader gebruikt voor andere systemen. Momenteel hebben ze nog geen problemen gekend bij de connectie tussen hun netwerken.
+
+\section{\IfLanguageName{dutch}{Algemeen}{Algemeen}}
+\label{sec:Algemeen}
+Uit de antwoorden van de bedrijven kunnen we zien dat de theorie uit de literatuurstudie ~\ref{ch:stand-van-zaken} juist was. Samen met de literatuurstudie zijn de antwoorden van de bedrijven, antwoorden op de hoofdonderzoeksvraag en deelonderzoeksvragen die te vinden zijn onder~\ref{sec:onderzoeksvraag}. 
+
+We kunnen besluiten dat de IT-omgeving bij hedendaagse bedrijven bestaat uit:
+\begin{itemize}
+    \item Fileserver
+    \item Applicatieserver
+    \item Webserver
+    \item Mailserver
+    \item DHCP-server
+    \item DNS-server
+\end{itemize}
+Alle bedrijven die deelnamen aan de enquête maken gebruik van deze componenten en gebruiken ook nog andere componenten. 
+
+OT-componenten die de bedrijven gebruiken zijn dezelfde die de theorie aankaart. Echter, blijkt uit de enquête dat veel personen binnen het bedrijf niet goed weten wat er precies allemaal draait in de omgeving. Ze geven aan dat er veel componenten worden ingezet zonder goed te inventariseren. 
+
+Communicatieprotocollen die ze gebruiken binnen beiden omgevingen komen overeen met de theorie. De meest gebruikte protocollen worden gebruikt door de bedrijven. Ook vele andere protocollen worden gebruikt, dit hangt af van bedrijf tot bedrijf.
+
+De beveiliging van het IT-netwerk is bij de drie bedrijven redelijk goed en voldoende. Deze worden beveiligd door verschillende componenten zoals een firewall en zijn goed gesegmenteerd. Eén bedrijf van de drie maakt geen gebruik van segmentatie wat niet goed is. Het OT-netwerk wordt minder goed beveiligd bij alle drie de bedrijven. Ze passen geen extra beveiliging hierop toe. Uit de theorie blijkt dat OT-beveiliging vrij nieuw is en bedrijven hier nog geen aandacht op gevestigd hebben. De updates worden bij twee bedrijven van de drie apart bekeken. Dit is normaal volgens de theorie.
+
+Bij twee van de drie bedrijven zijn hun IT en OT-netwerk gekoppeld aan elkaar. Bij één bedrijf wordt de data ook effectief gebruikt voor verdere doeleinden. Bij de andere wordt de informatie niet nader gebruikt en is het gekoppeld, omdat dit makkelijker was voor hun. Ze hebben beide geen problemen ondervonden bij het koppelen van beide netwerken. 
+
+
+

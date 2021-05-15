@@ -1,0 +1,30 @@
+\ifglsentryexists{it}{}%
+{%
+\gls@defglossaryentry{it}%
+{%
+name={it},%
+sort={it},%
+type={main},%
+first={it},%
+firstplural={its},%
+text={it},%
+plural={its},%
+description={Atlantic Daylight Time},%
+descriptionplural={Atlantic Daylight Time},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
